@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0698e3b1-300b-45c6-83d8-ee92a4819ef5">
+  <name>SimpleUAT</name>
+  <synonym>
+    <key>ru</key>
+    <value>Simple УАТ</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <managedApplicationModule>Extended</managedApplicationModule>
+    <sessionModule>Extended</sessionModule>
+    <externalConnectionModule>Extended</externalConnectionModule>
+    <commandInterface>Extended</commandInterface>
+    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="8d4d5e53-3219-4b19-850f-4fc256d28755"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="ecc59b02-0f5e-4964-9f64-5c9337f57376"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="1ea6ef9d-34de-4fc1-85f5-ff6dd83eff37"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="66dfe4fa-8c5d-48aa-a109-be8035703e6b"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="cafbe949-0da4-4d33-9e40-3431173b4ebe"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="1253f39a-979a-4504-bf1f-ae8aac657b8d"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="efc10c6d-f6ba-4cba-aff5-f5b789e5df65"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>SUAT_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.23</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.SUAT_ОсновнаяРоль</defaultRoles>
+  <vendor>ООО СИМПЛ</vendor>
+  <version>0.0.0.1</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.23</compatibilityMode>
+  <languages uuid="727e74b2-7538-4809-9cc2-99b14fef7fe0">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <roles>Role.SUAT_ОсновнаяРоль</roles>
+</mdclass:Configuration>
