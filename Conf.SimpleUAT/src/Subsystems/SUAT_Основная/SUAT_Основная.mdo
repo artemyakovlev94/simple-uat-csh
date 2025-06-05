@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73aff845-15ff-4a2c-9941-a394600db3e5">
+  <name>SUAT_Основная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Simple УАТ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.SUAT_ГабаритностьМатериала</content>
+</mdclass:Subsystem>

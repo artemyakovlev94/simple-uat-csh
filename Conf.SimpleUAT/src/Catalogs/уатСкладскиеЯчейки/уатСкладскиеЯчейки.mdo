@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="014d85a2-d177-4a4a-a90f-bcc7748cefb9" extendedConfigurationObject="26c9e22a-4718-456a-8769-20a3bc9dbed0">
+  <producedTypes>
+    <objectType typeId="59717d46-8884-4cec-8b03-5c67b25138b3" valueTypeId="20172ee8-d441-4d81-823d-c0c51333caf2"/>
+    <refType typeId="d1d85af0-f4d1-4417-802a-c3038574073e" valueTypeId="9a4baae7-e73b-460b-9212-c145435a98dd"/>
+    <selectionType typeId="fe4bd900-ca3b-4c9d-bf3f-34c2a69d5209" valueTypeId="587cea47-4470-4ee7-8677-0d18e7820868"/>
+    <listType typeId="a56bcfe6-3009-4504-81dd-d6a72b2caae0" valueTypeId="5fc8d5ba-cf66-48b6-807d-a6b48fb2f5a9"/>
+    <managerType typeId="f582ba72-6bd8-467b-b784-1425b33cb608" valueTypeId="bf076a45-4599-4c4a-a236-bbca549fe5bb"/>
+  </producedTypes>
+  <name>уатСкладскиеЯчейки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <checkUnique>true</checkUnique>
+  <attributes uuid="7f6a75cc-31c9-42a2-8d35-b0c6ad79aa7e">
+    <name>SUAT_ГабаритностьМатериала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Габаритность материала</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.SUAT_ГабаритностьМатериала</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="79a60ea8-ff6a-4696-8fb3-ef6657fde24f">
+    <name>SUAT_Заполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="33a3b27d-03ee-4e71-95ff-a3e561a2d43f" extendedConfigurationObject="4cd2dcff-0855-4a89-be7c-8b72a055f138">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

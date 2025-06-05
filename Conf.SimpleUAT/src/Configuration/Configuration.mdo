@@ -48,5 +48,10 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.SUAT_Основная</subsystems>
+  <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
   <roles>Role.SUAT_ОсновнаяРоль</roles>
+  <catalogs>Catalog.SUAT_ГабаритностьМатериала</catalogs>
+  <catalogs>Catalog.НоменклатурныеГруппы</catalogs>
+  <catalogs>Catalog.уатСкладскиеЯчейки</catalogs>
 </mdclass:Configuration>

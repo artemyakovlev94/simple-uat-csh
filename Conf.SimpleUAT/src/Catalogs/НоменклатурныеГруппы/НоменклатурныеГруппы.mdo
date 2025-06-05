@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3379b5ac-0b34-45ce-871b-ca6eaeb1f647" extendedConfigurationObject="a950af7d-0de0-4395-9b63-ac0de10345e6">
+  <producedTypes>
+    <objectType typeId="2023b193-1f22-4549-8c9c-1f98b4b76beb" valueTypeId="9f7ba2ea-f68e-4288-8435-286db7c565b6"/>
+    <refType typeId="3688a600-6d5b-4284-a6dc-f002a6853b25" valueTypeId="cb826867-9f64-4640-bbe1-6c4982fb7dcb"/>
+    <selectionType typeId="5e8a027f-344f-456e-9c1b-947c18b8be1c" valueTypeId="422f00ac-5226-47a8-99f2-ecb26971b374"/>
+    <listType typeId="dcfcae53-e731-4882-82dc-df2a376b064b" valueTypeId="a0711f47-51ee-4fd2-b836-25f00633549f"/>
+    <managerType typeId="1003cf96-c0bc-47bb-b567-79f1e9f1e86d" valueTypeId="bc32e13f-5fe3-4bc9-b8ae-d61e411d1a80"/>
+  </producedTypes>
+  <name>НоменклатурныеГруппы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <checkUnique>true</checkUnique>
+  <attributes uuid="67097b7e-d40a-4834-939d-121e97c9d346">
+    <name>SUAT_ГабаритностьМатериала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Габаритность материала</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.SUAT_ГабаритностьМатериала</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="27aa62d5-92cd-417a-a13a-0cb13163076c" extendedConfigurationObject="229679d5-d00d-4248-a147-e0be4346cb74">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

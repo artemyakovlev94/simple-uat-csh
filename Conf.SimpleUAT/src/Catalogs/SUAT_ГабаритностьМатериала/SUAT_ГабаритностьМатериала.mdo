@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cec8a9cf-f5be-4bf2-8c1c-d53e685896b3">
+  <producedTypes>
+    <objectType typeId="81d688d9-ac2d-4062-ac5c-ca6d29227479" valueTypeId="4d1aef94-936f-46f8-9c43-352922113474"/>
+    <refType typeId="93ca3f55-f1f6-4864-932e-b00a6aa129fc" valueTypeId="7e8dd384-8872-4809-9d70-f206c7708bb4"/>
+    <selectionType typeId="fa6db33b-f581-4745-b410-22607e87d977" valueTypeId="0f99cb9b-9784-4590-a656-a8da0d81bbc5"/>
+    <listType typeId="dd27c238-89ba-408b-8581-ef90958c69e9" valueTypeId="3ae6aacc-5f5f-4da7-87c8-5ff9e9713d93"/>
+    <managerType typeId="9de42fe0-7d1a-4648-a01e-d42c2b688363" valueTypeId="4a07afce-ab3d-429c-a120-ca8119595090"/>
+  </producedTypes>
+  <name>SUAT_ГабаритностьМатериала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Габаритность материала (SUAT)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.SUAT_ГабаритностьМатериала.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.SUAT_ГабаритностьМатериала.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Габаритность материала</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Габаритность материала</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
