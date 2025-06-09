@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98f6780b-74fd-4473-bed7-25e2593648bf">
+  <producedTypes>
+    <objectType typeId="f8d2546d-ae1c-4e13-903a-ad7fc5030ba9" valueTypeId="af2d43a6-26e0-4067-8919-69eeebae32dc"/>
+    <managerType typeId="4711195e-1cbc-4d8d-9741-6288a07d1540" valueTypeId="4d3353d5-f8b4-4f13-ab95-ac50f628265a"/>
+  </producedTypes>
+  <name>SUAT_ПечатьШтрихкодовЯчеек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать штрихкодов ячеек (SUAT)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.SUAT_ПечатьШтрихкодовЯчеек.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Печать штрихкодов ячеек</value>
+  </extendedPresentation>
+  <forms uuid="946d5f49-dbc8-441e-b9fb-2e1a54d35df4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e62cf3ae-d717-4750-b08f-4fbb0b7d219f">
+    <name>ШаблонЭтикетки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон этикетки</value>
+    </synonym>
+  </templates>
+  <commands uuid="f575807a-31e6-430a-9a7c-0d6109013d48">
+    <name>ОткрытьПечатьШтрихкодовЯчеек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать штрихкодов ячеек</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

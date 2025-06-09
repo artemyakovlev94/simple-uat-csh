@@ -53,5 +53,8 @@
   <roles>Role.SUAT_ОсновнаяРоль</roles>
   <catalogs>Catalog.SUAT_ГабаритностьМатериала</catalogs>
   <catalogs>Catalog.НоменклатурныеГруппы</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.уатСкладскиеЯчейки</catalogs>
+  <catalogs>Catalog.ШаблоныЭтикетокИЦенниковБПО</catalogs>
+  <dataProcessors>DataProcessor.SUAT_ПечатьШтрихкодовЯчеек</dataProcessors>
 </mdclass:Configuration>
