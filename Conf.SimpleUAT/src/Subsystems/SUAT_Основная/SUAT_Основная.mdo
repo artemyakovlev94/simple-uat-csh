@@ -12,4 +12,7 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.SUAT_ГабаритностьМатериала</content>
   <content>DataProcessor.SUAT_ПечатьШтрихкодовЯчеек</content>
+  <content>ScheduledJob.SUAT_ЗаменаШтрихкодовАналоговНоменклатурыБезОстатка</content>
+  <content>CommonModule.SUAT_ЗаменаШтрихкодовАналоговНоменклатуры</content>
+  <content>CommonCommand.SUAT_ЗаменаШтрихкодовАналоговНоменклатуры</content>
 </mdclass:Subsystem>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="058b4d48-2ea1-49f3-90c1-a6435b5a823a">
+  <name>SUAT_ЗаменаШтрихкодовАналоговНоменклатурыБезОстатка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замена штрихкодов аналогов номенклатуры без остатка (SUAT)</value>
+  </synonym>
+  <methodName>CommonModule.SUAT_ЗаменаШтрихкодовАналоговНоменклатуры.ВыполнитьЗаменуШтрихкодовАналоговБезОстатка</methodName>
+  <key>d9fbead9-ade9-4326-97f7-e53010d3ae45</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

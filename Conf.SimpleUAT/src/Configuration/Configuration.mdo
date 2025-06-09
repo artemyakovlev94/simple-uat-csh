@@ -51,6 +51,9 @@
   <subsystems>Subsystem.SUAT_Основная</subsystems>
   <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
   <roles>Role.SUAT_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.SUAT_ЗаменаШтрихкодовАналоговНоменклатуры</commonModules>
+  <scheduledJobs>ScheduledJob.SUAT_ЗаменаШтрихкодовАналоговНоменклатурыБезОстатка</scheduledJobs>
+  <commonCommands>CommonCommand.SUAT_ЗаменаШтрихкодовАналоговНоменклатуры</commonCommands>
   <catalogs>Catalog.SUAT_ГабаритностьМатериала</catalogs>
   <catalogs>Catalog.НоменклатурныеГруппы</catalogs>
   <catalogs>Catalog.Склады</catalogs>

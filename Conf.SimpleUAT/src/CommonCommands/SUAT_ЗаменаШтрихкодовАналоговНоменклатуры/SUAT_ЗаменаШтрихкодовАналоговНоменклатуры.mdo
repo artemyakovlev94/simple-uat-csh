@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44200810-5383-49e5-974b-33152526e851">
+  <name>SUAT_ЗаменаШтрихкодовАналоговНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замена штрихкодов аналогов номенклатуры</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>
