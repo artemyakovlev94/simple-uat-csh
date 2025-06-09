@@ -15,4 +15,5 @@
   <content>ScheduledJob.SUAT_ЗаменаШтрихкодовАналоговНоменклатурыБезОстатка</content>
   <content>CommonModule.SUAT_ЗаменаШтрихкодовАналоговНоменклатуры</content>
   <content>CommonCommand.SUAT_ЗаменаШтрихкодовАналоговНоменклатуры</content>
+  <content>Constant.SUAT_ОприходованиеТолькоПоГлавномуАналогу</content>
 </mdclass:Subsystem>

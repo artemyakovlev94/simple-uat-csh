@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed95393e-1222-497d-9d44-e3dd01af2bb7">
+  <producedTypes>
+    <managerType typeId="ffea4ea6-e5a4-460a-9071-7f497e49294d" valueTypeId="e0f53054-5d99-4de8-8265-c34cae5312cc"/>
+    <valueManagerType typeId="ae79d72f-e54c-46b2-ab40-9dc093ce8523" valueTypeId="932ced84-ab4b-4391-8004-aba841f41807"/>
+    <valueKeyType typeId="bb87aa11-964d-4d1a-98ef-62aa89d8b103" valueTypeId="941dadc1-dd6b-4e6f-8888-48caa5d56cf5"/>
+  </producedTypes>
+  <name>SUAT_ОприходованиеТолькоПоГлавномуАналогу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оприходование только по главному аналогу (SUAT)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
