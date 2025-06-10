@@ -53,6 +53,7 @@
   <commonPictures>CommonPicture.уатИнформация16</commonPictures>
   <roles>Role.SUAT_ОсновнаяРоль</roles>
   <commonModules>CommonModule.SUAT_АналогиНоменклатуры</commonModules>
+  <commonModules>CommonModule.SUAT_СкладскиеЯчейки</commonModules>
   <scheduledJobs>ScheduledJob.SUAT_ЗаменаШтрихкодовАналоговНоменклатурыБезОстатка</scheduledJobs>
   <commonCommands>CommonCommand.SUAT_ЗаменаШтрихкодовАналоговНоменклатуры</commonCommands>
   <constants>Constant.SUAT_ОприходованиеТолькоПоГлавномуАналогу</constants>
