@@ -13,7 +13,7 @@
   <content>Catalog.SUAT_ГабаритностьМатериала</content>
   <content>DataProcessor.SUAT_ПечатьШтрихкодовЯчеек</content>
   <content>ScheduledJob.SUAT_ЗаменаШтрихкодовАналоговНоменклатурыБезОстатка</content>
-  <content>CommonModule.SUAT_ЗаменаШтрихкодовАналоговНоменклатуры</content>
+  <content>CommonModule.SUAT_АналогиНоменклатуры</content>
   <content>CommonCommand.SUAT_ЗаменаШтрихкодовАналоговНоменклатуры</content>
   <content>Constant.SUAT_ОприходованиеТолькоПоГлавномуАналогу</content>
 </mdclass:Subsystem>

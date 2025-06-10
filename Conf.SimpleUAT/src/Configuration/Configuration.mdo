@@ -50,8 +50,9 @@
   </languages>
   <subsystems>Subsystem.SUAT_Основная</subsystems>
   <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
+  <commonPictures>CommonPicture.уатИнформация16</commonPictures>
   <roles>Role.SUAT_ОсновнаяРоль</roles>
-  <commonModules>CommonModule.SUAT_ЗаменаШтрихкодовАналоговНоменклатуры</commonModules>
+  <commonModules>CommonModule.SUAT_АналогиНоменклатуры</commonModules>
   <scheduledJobs>ScheduledJob.SUAT_ЗаменаШтрихкодовАналоговНоменклатурыБезОстатка</scheduledJobs>
   <commonCommands>CommonCommand.SUAT_ЗаменаШтрихкодовАналоговНоменклатуры</commonCommands>
   <constants>Constant.SUAT_ОприходованиеТолькоПоГлавномуАналогу</constants>
@@ -60,5 +61,7 @@
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.уатСкладскиеЯчейки</catalogs>
   <catalogs>Catalog.ШаблоныЭтикетокИЦенниковБПО</catalogs>
+  <enums>Enum.уатРежимПолученияОстатков</enums>
   <dataProcessors>DataProcessor.SUAT_ПечатьШтрихкодовЯчеек</dataProcessors>
+  <dataProcessors>DataProcessor.уатПодборНоменклатуры</dataProcessors>
 </mdclass:Configuration>

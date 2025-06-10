@@ -5,7 +5,7 @@
     <key>ru</key>
     <value>Замена штрихкодов аналогов номенклатуры без остатка (SUAT)</value>
   </synonym>
-  <methodName>CommonModule.SUAT_ЗаменаШтрихкодовАналоговНоменклатуры.ВыполнитьЗаменуШтрихкодовАналоговБезОстатка</methodName>
+  <methodName>CommonModule.SUAT_АналогиНоменклатуры.ВыполнитьЗаменуШтрихкодовАналоговБезОстатка</methodName>
   <key>d9fbead9-ade9-4326-97f7-e53010d3ae45</key>
   <use>true</use>
   <predefined>true</predefined>
